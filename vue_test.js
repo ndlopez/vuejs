@@ -21,8 +21,10 @@ var load_list = new Vue({
     data: {
       todos: [
         { text: 'Learn Vue, it\'s independent' },
-        { text: 'Vue does NOT depend on google nor facebook assholes' },
-        { text: 'Must learn something new' }
+        { text: 'Vue does NOT depend on google or facebook assholes' },
+        { text: 'Must learn something new' },
+        { text: 'Build a webApp to store/display passwords'},
+        { text: 'Continue doing Paiza\'s tests'}
       ],
       newItem:""
     },
@@ -72,7 +74,8 @@ var app7 = new Vue({
     groceryList: [
       { id: 0, text: 'Vegetables' },
       { id: 1, text: 'Ricotta Cheese' },
-      { id: 2, text: 'Whatever else humans are supposed to eat' }
+      { id: 2, text: 'Calbee\'s Fruits granola' },
+      { id: 3, text: 'Pilkul Fe 8 pack'}
     ]
   }
 })

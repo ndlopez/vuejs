@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="header">
-    <h2>Scroll Down</h2>
+    <h2>Dark matter matters</h2>
     <p>Scroll down to see the sticky effect.</p>
   </div>
   <ul>
@@ -74,9 +74,11 @@
   <div id="hideShow">
     <button @click="show = !show"> {{ btnName }} </button>
     <transition name="bounce">
-      <p v-if="show">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-        Mauris facilisis enim libero, at lacinia diam fermentum id. <br>
-        Pellentesque habitant morbi tristique senectus et netus.</p>
+      <p v-if="show">
+      Water Cherenkov detectors work by directly detecting the particles from the <br> extensive Air Shower associated with a high-energy cosmic ray or gamma ray entering the atmosphere <br>
+      A search for annihilating dark matter should account for different sources classes, <br> which will have different expected dark matter kinematics, dark matter densities, <br> dark matter substructure, and baryonic effects that can affect signal and background levels.<br>
+      The dwarf galaxies provide sources with low gamma-ray backgrounds over <br> a range of declinations and dark matter densities.
+      </p>
       <p v-else="donotshow">Click on the button again.</p>
     </transition>
   </div>
