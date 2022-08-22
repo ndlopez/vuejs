@@ -1,0 +1,29 @@
+api/*
+# Logs
+tutorial/logs
+*.log
+tutorial/npm-debug.log*
+tutorial/yarn-debug.log*
+tutorial/yarn-error.log*
+tutorial/pnpm-debug.log*
+tutorial/lerna-debug.log*
+
+tutorial/node_modules
+.DS_Store
+tutorial/dist
+tutorial/dist-ssr
+tutorial/coverage
+tutorial/*.local
+
+tutorial/cypress/videos/
+tutorial/cypress/screenshots/
+
+# Editor directories and files
+tutorial/.vscode/*
+tutorial/!.vscode/extensions.json
+tutorial/.idea
+tutorial/*.suo
+tutorial/*.ntvs*
+tutorial/*.njsproj
+tutorial/*.sln
+tutorial/*.sw?
