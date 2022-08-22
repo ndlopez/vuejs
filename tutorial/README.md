@@ -1,4 +1,6 @@
-# vue-tutorial
+# vue-tutorial from Tania Rascia's blog
+
+! I shoulda cloned/forked instead
 
 This template should help get you started developing with Vue 3 in Vite.
 
