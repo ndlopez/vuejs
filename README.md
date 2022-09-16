@@ -1,6 +1,9 @@
 # My 1st Vue.js WebApp
 I have been experiencing a lot with JS lately, so I decided to try Vue.js.
 
+## Near-Earth objects
+Not developed by me.
+
 ## Tutorial
 
 Based on Tania Rascia's vue tutorial
