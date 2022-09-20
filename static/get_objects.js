@@ -1,5 +1,5 @@
 let apiKey = 'BxfX2Ho5Logh0lWk0AqY1MtZBE2SJVNGPLKfT4Ze'
-let url = 'https://api.nasa.gov/neo/rest/v1/feed?start_date=2021-07-15&end_date=2021-07-15&api_key=' + apiKey;
+let url = 'https://api.nasa.gov/neo/rest/v1/feed?start_date=2022-09-15&end_date=2022-09-15&api_key=' + apiKey;
 
 let vm = new Vue({
   el: '#app',
@@ -24,7 +24,7 @@ let vm = new Vue({
     fetchAstroids() {
       axios.get(url)
         .then((res) => {
-          vm.asteroids = res.data.near_earth_objects['2021-07-15']
+          vm.asteroids = res.data.near_earth_objects['2022-09-15']
         })
     },
     getCloseApproachDate(a) {
